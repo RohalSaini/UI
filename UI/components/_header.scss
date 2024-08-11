@@ -1,0 +1,59 @@
+/* UI/components/_header.scss */
+
+header {
+    background-color: $header-background-color;
+    color: $header-text-color;
+    padding: $spacing-base 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: $header-shadow;
+    position: relative;
+
+    &__logo {
+        font-size: $font-size-xl;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__nav {
+        margin-top: $spacing-small;
+
+        &__item {
+            display: inline-block;
+            margin: 0 $spacing-small;
+
+            &__link {
+                color: $header-link-color;
+                text-decoration: none;
+                font-size: $font-size-base;
+                @include transition(color);
+
+                &:hover {
+                    color: $header-link-hover-color;
+                }
+            }
+        }
+    }
+
+    &--sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    
+    &--transparent {
+        background-color: transparent;
+        color: $header-text-color-light;
+    }
+
+    &--dark {
+        background-color: $header-background-color-dark;
+        color: $header-text-color-light;
+
+        .header__nav__item__link {
+            color: $header-link-color-light;
+        }
+    }
+}

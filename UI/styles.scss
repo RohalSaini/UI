@@ -1,0 +1,17 @@
+/* styles.scss */
+
+/* Import abstracts */
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+/* Import components */
+@import "components/header";
+@import "components/buttons";
+@import "components/cards";
+
+/* Import layout */
+@import "layout/grid";
+@import "layout/main";
+
+/* Import pages */
+@import "pages/home";

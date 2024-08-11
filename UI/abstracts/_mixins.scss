@@ -1,0 +1,74 @@
+/* _mixins.scss */
+
+/* Flexbox Centering Mixin */
+@mixin center-content($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+/* Transition Mixin */
+@mixin transition($property, $duration: 0.3s, $ease: ease) {
+    transition: $property $duration $ease;
+}
+
+/* Responsive Text Mixin */
+@mixin responsive-text($size-mobile, $size-desktop) {
+    font-size: $size-mobile;
+
+    @media (min-width: $breakpoint-md) {
+        font-size: $size-desktop;
+    }
+}
+
+/* Box Shadow Mixin */
+@mixin box-shadow($shadow: 0 2px 4px rgba(0,0,0,0.1)) {
+    box-shadow: $shadow;
+}
+
+/* Border Radius Mixin */
+@mixin border-radius($radius: 5px) {
+    border-radius: $radius;
+}
+
+/* Background Gradient Mixin */
+@mixin background-gradient($start-color, $end-color, $direction: to bottom) {
+    background: linear-gradient($direction, $start-color, $end-color);
+}
+
+/* Flex Grid Mixin */
+@mixin flex-grid($columns: 2, $gap: $grid-gutter-width) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gap;
+}
+
+/* Media Query Mixin */
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == xs {
+        @media (max-width: $breakpoint-xs) { @content; }
+    } @else if $breakpoint == sm {
+        @media (max-width: $breakpoint-sm) { @content; }
+    } @else if $breakpoint == md {
+        @media (max-width: $breakpoint-md) { @content; }
+    } @else if $breakpoint == lg {
+        @media (max-width: $breakpoint-lg) { @content; }
+    } @else if $breakpoint == xl {
+        @media (max-width: $breakpoint-xl) { @content; }
+    }
+}
+
+/* Hide Element Mixin */
+@mixin hide {
+    display: none !important;
+}
+
+/* Clearfix Mixin */
+@mixin clearfix {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

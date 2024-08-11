@@ -1,0 +1,116 @@
+
+/* Colors */
+$color-primary: #007bff;
+$color-primary-hover: #0056b3;
+$color-secondary: #6c757d;
+$color-background: #f4f4f4;
+$color-text: #333;
+$color-text-light: #666;
+$color-white: #fff;
+
+/* Fonts */
+$font-family-base: Arial, sans-serif;
+$font-size-base: 16px;
+$font-size-large: 24px;
+$font-size-small: 12px;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+/* Spacing */
+$spacing-small: 5px;
+$spacing-base: 10px;
+$spacing-large: 20px;
+
+/* Sizes */
+$size-container-width: 80%;
+$size-header-height: 60px;
+
+/* Borders */
+$border-radius-small: 3px;
+$border-radius-base: 5px;
+$border-color-base: #ddd;
+
+/* Shadows */
+$shadow-small: 0 1px 2px rgba(0, 0, 0, 0.1);
+$shadow-base: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+/* Grid */
+$grid-gutter-width: 20px;
+
+/* Breakpoints */
+$breakpoint-xs: 320px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+/* Z-index */
+$z-index-header: 1000;
+$z-index-modal: 1050;
+$z-index-overlay: 1100;
+
+
+/* UI/abstracts/_variables.scss */
+
+/* Color Variables */
+$header-background-color: #333;
+$header-text-color: #fff;
+$header-link-color: #ddd;
+$header-link-hover-color: #fff;
+$header-background-color-dark: #000;
+$header-text-color-light: #ccc;
+$header-link-color-light: #bbb;
+
+/* Spacing Variables */
+$spacing-base: 20px;
+$spacing-small: 10px;
+
+/* Font Size Variables */
+$font-size-base: 16px;
+$font-size-xl: 24px;
+
+/* Shadow Variables */
+$header-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+/* Other Variables */
+$transition-duration: 0.3s;
+$transition-ease: ease;
+
+
+/* UI/abstracts/_variables.scss */
+
+/* Color Variables */
+$card-border-color: #ddd;
+$card-background: #fff;
+$card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$card-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.2);
+$card-header-color: #333;
+$text-color: #666;
+$text-muted-color: #999;
+$link-color: #007bff;
+$link-color-hover: #0056b3;
+$card-outline-border-color: #ccc;
+
+/* Spacing Variables */
+$spacing-base: 20px;
+$spacing-small: 10px;
+
+/* Font Size Variables */
+$font-size-base: 16px;
+$font-size-lg: 18px;
+$font-size-sm: 14px;
+
+/* Border Radius Variables */
+$border-radius-base: 5px;
+$border-radius-large: 10px;
+
+
+/* UI/abstracts/_variables.scss */
+
+/* Container Variables */
+$container-width: 1200px; /* Adjust based on your design */
+$container-padding: 20px;
+
+/* Spacing Variables */
+$base-padding: 15px; /* Adjust based on your design */
+

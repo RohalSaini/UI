@@ -1,0 +1,10 @@
+/* _main.scss */
+
+main {
+    width: 100%;
+    @include center-content;
+    padding: $main-padding;
+    background-color: $main-background-color;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
