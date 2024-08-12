@@ -200,6 +200,20 @@ header {
   padding-left: 15px;
   padding-right: 15px; }
 
+/* _main.scss */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  box-sizing: border-box; }
+
 /* Import pages */
+/* _home.scss */
+/* Add styles specific to the home page here */
 
 /*# sourceMappingURL=styles.css.map */
