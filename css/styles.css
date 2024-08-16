@@ -1,5 +1,6 @@
 /* styles.scss */
 /* Import abstracts */
+/* UI/abstracts/_variables.scss */
 /* Colors */
 /* Fonts */
 /* Spacing */
@@ -9,22 +10,27 @@
 /* Grid */
 /* Breakpoints */
 /* Z-index */
-/* UI/abstracts/_variables.scss */
-/* Color Variables */
-/* Spacing Variables */
-/* Font Size Variables */
-/* Shadow Variables */
-/* Other Variables */
-/* UI/abstracts/_variables.scss */
-/* Color Variables */
-/* Spacing Variables */
-/* Font Size Variables */
-/* Border Radius Variables */
-/* UI/abstracts/_variables.scss */
-/* Container Variables */
-/* Adjust based on your design */
-/* Spacing Variables */
-/* Adjust based on your design */
+/* Miscellaneous */
+/* Specific to main layout */
+                                /* 
+
+UI/abstracts/_variables.scss */
+/* UI/abstracts/_borders.scss */
+/* UI/abstracts/_colors.scss */
+/* _mixins.scss */
+/* Flexbox Centering Mixin */
+/* Transition Mixin */
+/* Responsive Text Mixin */
+/* Box Shadow Mixin */
+/* Border Radius Mixin */
+/* Background Gradient Mixin */
+/* Flex Grid Mixin */
+/* Media Query Mixin */
+/* Hide Element Mixin */
+/* Clearfix Mixin */
+/* UI/abstracts/_shadows.scss */
+/* UI/abstracts/_spacing.scss */
+/* UI/abstracts/_typography.scss */
 /* _mixins.scss */
 /* Flexbox Centering Mixin */
 /* Transition Mixin */
@@ -41,7 +47,7 @@
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -51,10 +57,10 @@ header {
     font-weight: bold;
     text-transform: uppercase; }
   header__nav {
-    margin-top: 10px; }
+    margin-top: 5px; }
     header__nav__item {
       display: inline-block;
-      margin: 0 10px; }
+      margin: 0 5px; }
       header__nav__item__link {
         color: #ddd;
         text-decoration: none;
@@ -80,7 +86,7 @@ header {
 /* _buttons.scss */
 .btn {
   display: inline-block;
-  padding: 20px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -113,7 +119,7 @@ header {
     padding: 20px 30px;
     font-size: 24px; }
   .btn.btn-sm {
-    padding: 10px 10px;
+    padding: 5px 10px;
     font-size: 12px; }
   .btn.btn-block {
     display: block;
@@ -123,7 +129,7 @@ header {
 .card {
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -132,15 +138,15 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
   .card__header {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #333;
     font-weight: bold; }
   .card__body {
     font-size: 16px;
-    color: #666;
-    margin-bottom: 20px; }
+    color: #333;
+    margin-bottom: 10px; }
   .card__footer {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 14px;
     color: #999;
     text-align: right; }
@@ -151,7 +157,7 @@ header {
     border-bottom-right-radius: 0; }
   .card__link {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
